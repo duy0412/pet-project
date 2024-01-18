@@ -1,0 +1,125 @@
+body{
+    max-height: 100vh;
+    padding: 0;
+    margin: 0;
+    border: 3px solid #263238;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#rectangle1{
+    display: flex;
+    position: relative;
+    width: 482.65px;
+    max-height: 100vh;
+    max-width: 482.65px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+    background: #FFFFFF;
+}
+
+.form-heading{
+    position: relative;
+    text-align: center;
+    font-family: 'Century Gothic', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva, Verdana', sans-serif;
+    left: 30px;
+    top: 10px;
+}
+
+.form-heading1{
+    position: relative;
+    color: rgb(30,39,114);
+    font-weight: bolder;
+    font-stretch: ultra-expanded;
+}
+
+.form-heading2{
+    color: rgb(28,24,24);
+    font-size:small;
+    font-weight: bolder;
+}
+
+.form-group{
+    position: relative;
+    left:40px;         
+    top: 20px;
+}
+
+.form-group input, select{
+    border-radius: 10px;
+    border-color: #FFFFFF;
+    display:flex;
+    background-color: #F1F3F6;
+    height: 30px;
+    width: 375px;   
+    font-family: 'Century Gothic', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva, Verdana', sans-serif;;
+    flex-grow: 1;
+}
+
+.gender, .dob{
+    height: 40px;
+}
+.form-group label{
+    font-family: 'Century Gothic', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva, Verdana', sans-serif;
+    font-size: 12px;
+}
+
+.form-group i{
+    position: relative;
+    align-items: center;
+    font-size: 20px;
+    color: rgb(253,116,1);
+    top: -30px;
+    left: 350px;
+}
+.form-submit{
+    position: relative;
+    left: 40px;
+    top: 60px;
+    height: 41px;
+    width: 375px;   
+    border-radius: 10px;
+    color:#ffffff;
+    border-color: #FFFFFF;
+    background-color:   rgb(253,116,1);
+}
+
+.form-submit:hover{
+    background-color: #ffffff;
+    border-color: rgb(253,116,1);
+    color: rgb(253,116,1);
+}
+
+.login{
+    position: relative;
+    background-color: #FFFFFF;
+    color:rgb(253,116,1);
+    height: 40px;
+    min-width: 375px;   
+    border-radius: 10px; 
+    border-color: rgb(253,116,1);
+    left: -341px;
+    top: 640px;
+}
+
+.login:hover{
+    background-color: rgb(253,116,1);
+    border-color: rgb(253,116,1);
+    color: #FFFFFF;
+}
+
+#rectangle2{
+    /* Rectangle 2 */
+    position: relative;
+    display:flex;
+    max-height: min-content;
+    border-radius: 10px;
+    width: 1025px;
+    height: 99.7vh;
+    left: 496.65px;
+    top: -560px;
+    background-image: url(../images/bg.png);
+    background-size:contain;
+
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.css">
+    <title>Signup Form</title>
+</head>
+<body>
+    <div id = "rectangle1">
+        <form action = "" id="form">
+            <div class = "form-heading">
+                <h1 class = "form-heading1">Network</h1>
+                <p class = "form-heading2">Create your account</p>
+            </div>
+            <div class = "form-group">
+                <label for=" 'surname">Surname</label>
+                <input type = 'text' class = 'surname' placeholder="surname" required>
+                <i class="fa-solid fa-image-portrait"></i>
+            </div>
+            <div class = "form-group">
+                <label for = 'lastname'>Lastname</label>
+                <input type = 'text' class = 'lastname' placeholder="lastname" required>
+                <i class="fa-solid fa-image-portrait"></i>
+            </div>
+            <div class = "form-group">
+                <label for = 'email'>Email</label>
+                <input type = 'text' class = 'email' placeholder="abc@gmail.com" required>
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class = "form-group">
+                <label for = 'password'>Password</label>
+                <input type = 'password' class = 'password' placeholder="password" required>
+                <div id = "eye">
+                    <i class="fa-solid fa-eye"></i>
+                </div>
+            </div>
+            <div class = "form-group">
+                <label for = 'dob'>Date of birth</label required>
+                <input type = 'date' class = 'dob'>
+                
+            </div>
+            <div class = "form-group">
+                <label for = 'gender'>Gender</label>
+                <select class = 'gender'>
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>
+            </div>
+            <input type = 'submit' value = 'Sign up' class = 'form-submit'>
+        
+        </form> 
+        <button  class= "login" onclick="">
+            Login
+        </button>
+    </div>
+    <div id="rectangle2">
+    </div>
+    
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+<script src="js/main.js"></script>
+</html>
